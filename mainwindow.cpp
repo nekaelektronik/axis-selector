@@ -1,6 +1,6 @@
 #include "mainwindow.h"
 #include "ui_mainwindow.h"
-#include <QDebug>
+#include <QProcess>
 
 MainWindow::MainWindow(QWidget *parent) :
     QMainWindow(parent),
@@ -15,13 +15,13 @@ MainWindow::~MainWindow()
 }
 
 void MainWindow::on_buttonAxis3_clicked(){
-    qDebug() << "3 Axis";
+    QProcess::execute("/usr/bin/linuxcnc /home/neka/linuxcnc/configs/NKCNC/NKCNC3.ini");
 }
 
 void MainWindow::on_buttonAxis4_clicked(){
-    qDebug() << "4 Axis";
+    QProcess::execute("/usr/bin/linuxcnc /home/neka/linuxcnc/configs/NKCNC/NKCNC4.ini");
 }
 
 void MainWindow::on_buttonAxis5_clicked(){
-    qDebug() << "5 Axis";
+    QProcess::execute("/usr/bin/linuxcnc /home/neka/linuxcnc/configs/NKCNC/NKCNC5.ini");
 }
