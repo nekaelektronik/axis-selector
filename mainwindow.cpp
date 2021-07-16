@@ -15,13 +15,16 @@ MainWindow::~MainWindow()
 }
 
 void MainWindow::on_buttonAxis3_clicked(){
-    QProcess::execute("/usr/bin/linuxcnc /home/neka/linuxcnc/configs/NKCNC/NKCNC3.ini");
+    QProcess *process = new QProcess(this);
+    process->start("/usr/bin/linuxcnc /home/neka/linuxcnc/configs/NKCNC/NKCNC3.ini");
 }
 
 void MainWindow::on_buttonAxis4_clicked(){
-    QProcess::execute("/usr/bin/linuxcnc /home/neka/linuxcnc/configs/NKCNC/NKCNC4.ini");
+    QProcess *process = new QProcess(this);
+    process->start("/usr/bin/linuxcnc /home/neka/linuxcnc/configs/NKCNC/NKCNC4.ini");
 }
 
 void MainWindow::on_buttonAxis5_clicked(){
-    QProcess::execute("/usr/bin/linuxcnc /home/neka/linuxcnc/configs/NKCNC/NKCNC5.ini");
+    QProcess *process = new QProcess(this);
+    process->start("/usr/bin/linuxcnc /home/neka/linuxcnc/configs/NKCNC/NKCNC5.ini");
 }
