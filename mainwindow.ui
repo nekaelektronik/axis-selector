@@ -23,6 +23,11 @@
         <verstretch>0</verstretch>
        </sizepolicy>
       </property>
+      <property name="font">
+       <font>
+        <pointsize>32</pointsize>
+       </font>
+      </property>
       <property name="text">
        <string>3 Axis</string>
       </property>
@@ -36,6 +41,11 @@
         <verstretch>0</verstretch>
        </sizepolicy>
       </property>
+      <property name="font">
+       <font>
+        <pointsize>32</pointsize>
+       </font>
+      </property>
       <property name="text">
        <string>4 Axis</string>
       </property>
@@ -48,6 +58,11 @@
         <horstretch>0</horstretch>
         <verstretch>0</verstretch>
        </sizepolicy>
+      </property>
+      <property name="font">
+       <font>
+        <pointsize>32</pointsize>
+       </font>
       </property>
       <property name="text">
        <string>5 Axis</string>
