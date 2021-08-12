@@ -28,3 +28,7 @@ void MainWindow::on_buttonAxis5_clicked(){
     QProcess *process = new QProcess(this);
     process->start("/usr/bin/linuxcnc /home/neka/linuxcnc/configs/NKCNC/NKCNC5.ini");
 }
+
+void MainWindow::on_buttonClose_clicked(){
+    this->close();
+}
