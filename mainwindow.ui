@@ -6,7 +6,7 @@
    <rect>
     <x>0</x>
     <y>0</y>
-    <width>402</width>
+    <width>404</width>
     <height>300</height>
    </rect>
   </property>
@@ -74,6 +74,26 @@
      </layout>
     </item>
     <item>
+     <widget class="QPushButton" name="pushButton">
+      <property name="sizePolicy">
+       <sizepolicy hsizetype="Minimum" vsizetype="Minimum">
+        <horstretch>0</horstretch>
+        <verstretch>0</verstretch>
+       </sizepolicy>
+      </property>
+      <property name="font">
+       <font>
+        <pointsize>32</pointsize>
+        <weight>75</weight>
+        <bold>true</bold>
+       </font>
+      </property>
+      <property name="text">
+       <string>NKS</string>
+      </property>
+     </widget>
+    </item>
+    <item>
      <layout class="QHBoxLayout" name="horizontalLayout_2">
       <item>
        <widget class="QPushButton" name="buttonClose">
@@ -90,7 +110,7 @@
          </size>
         </property>
         <property name="autoFillBackground">
-         <bool>true</bool>
+         <bool>false</bool>
         </property>
         <property name="styleSheet">
          <string notr="true">background-color: rgb(255, 0, 0);
@@ -112,7 +132,7 @@ border: none;</string>
     <rect>
      <x>0</x>
      <y>0</y>
-     <width>402</width>
+     <width>404</width>
      <height>22</height>
     </rect>
    </property>
