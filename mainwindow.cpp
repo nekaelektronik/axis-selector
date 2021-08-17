@@ -29,6 +29,11 @@ void MainWindow::on_buttonAxis5_clicked(){
     process->start("/usr/bin/linuxcnc /home/neka/linuxcnc/configs/NKCNC/NKCNC5.ini");
 }
 
+void MainWindow::on_buttonNks_clicked(){
+    QProcess *process = new QProcess(this);
+    process->start("sudo /home/neka/NKS/build-NKS-Desktop-Debug/NKS");
+}
+
 void MainWindow::on_buttonClose_clicked(){
     this->close();
 }
